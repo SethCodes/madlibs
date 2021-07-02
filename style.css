@@ -1,0 +1,115 @@
+:root {
+  --orange: #fd8603;
+  --green: #14fb07;
+  --blue: #1590ad;
+}
+body {
+  text-align: center;
+
+  margin: 30px;
+  height: 100vh;
+}
+
+
+h1 {
+  color: var(--blue);
+}
+
+
+input {
+  margin: 5px 30px;
+  padding: 5px;
+}
+p {
+  margin: auto;
+  padding: 20px 20px;
+  width: 80%;
+}
+button {
+  background-color: var(--orange);
+  height: 50px;
+  border-radius: 10px;
+  margin: 5px 30px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.button:hover{
+background-color: var(--green);}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+  background-color: var(--blue);
+  border: 1px solid black;
+  margin-top: 0;
+  margin-left: 20px;
+  padding: 10px 20px 30px;
+  border-radius: 10px;
+}
+.inputs h2 {
+  line-height: 2em;
+  margin: 20px 28px 0;
+  color: var(--green);
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.info {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.info p {
+  font-size: 16px;
+}
+
+.checkItOut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: arrow 3s infinite;
+}
+@keyframes arrow {
+  0% {
+    margin-left: 60px;
+  }
+  50% {
+    margin-right: 60px;
+    margin-left: -px;
+  }
+
+  100% {
+    margin-left: 60px;
+    margin-right: 0px;
+  }
+}
+h4 {
+  margin-right: 30px;
+}
+
+.icon {
+  color: var(--green);
+}
+
+.answerCard {
+  flex: 2;
+  display: block;
+  margin: auto;
+  background-color: var(--orange);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+}
