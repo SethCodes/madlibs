@@ -5,26 +5,30 @@
 }
 body {
   text-align: center;
-
+  min-width: 720px;
   margin: 30px;
   height: 100vh;
 }
-
 
 h1 {
   color: var(--blue);
 }
 
+h4 {
+  margin-right: 30px;
+}
 
 input {
   margin: 5px 30px;
   padding: 5px;
 }
+
 p {
   margin: auto;
   padding: 20px 20px;
   width: 80%;
 }
+
 button {
   background-color: var(--orange);
   height: 50px;
@@ -34,8 +38,9 @@ button {
   color: #fff;
 }
 
-.button:hover{
-background-color: var(--green);}
+.button:hover {
+  background-color: var(--green);
+}
 
 .container {
   display: flex;
@@ -56,6 +61,7 @@ background-color: var(--green);}
   padding: 10px 20px 30px;
   border-radius: 10px;
 }
+
 .inputs h2 {
   line-height: 2em;
   margin: 20px 28px 0;
@@ -82,23 +88,6 @@ background-color: var(--green);}
   align-items: center;
   animation: arrow 3s infinite;
 }
-@keyframes arrow {
-  0% {
-    margin-left: 60px;
-  }
-  50% {
-    margin-right: 60px;
-    margin-left: -px;
-  }
-
-  100% {
-    margin-left: 60px;
-    margin-right: 0px;
-  }
-}
-h4 {
-  margin-right: 30px;
-}
 
 .icon {
   color: var(--green);
@@ -112,4 +101,19 @@ h4 {
   border: 1px solid black;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+@keyframes arrow {
+  0% {
+    margin-left: 60px;
+  }
+  50% {
+    margin-right: 60px;
+    margin-left: -px;
+  }
+
+  100% {
+    margin-left: 60px;
+    margin-right: 0px;
+  }
 }
