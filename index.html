@@ -23,17 +23,19 @@
     <div class="container">
       <div class="inputs">
         <h2>Try It!</h2>
-        <input type="text" placeholder="Food item" />
-        <input type="text" placeholder="Noun" />
-        <input type="text" placeholder="Verb" />
-        <input type="text" placeholder="Noun" />
-        <input type="text" placeholder="A place" />
-        <input type="text" placeholder="Adjective" />
-        <input type="text" placeholder="Adjective" />
-        <input type="text" placeholder="Person" />
-        <input type="text" placeholder="Noun" />
-        <input type="text" placeholder="An animal" />
-        <button class="button">Get Libby</button>
+        <form action="/">
+        <input type="text" id="food-item" placeholder="Food item" />
+        <input type="text" id="noun-one" placeholder="Noun" />
+        <input type="text" id="verb" placeholder="Verb" />
+        <input type="text" id="noun-two" placeholder="Noun" />
+        <input type="text" id="place" placeholder="A place" />
+        <input type="text" id="adj-one" placeholder="Adjective" />
+        <input type="text" id="adj-two" placeholder="Adjective" />
+        <input type="text" id="person" placeholder="Person" />
+        <input type="text" id="noun-three" placeholder="Noun" />
+        <input type="text" id="animal" placeholder="An animal" />
+        <button class="button" type="submit" onclick="lib()">Get Libby</button>
+      </form>
       </div>
 
       <div class="copy">
@@ -60,15 +62,12 @@
           </div>
         </div>
         <div class="answerCard">
-          <p>
-            At night I dream of () that is as big as a (). When I try to take a
-            bite, it () on my ().<br />
-            The best time I ever ate () was at the (). It tasted (). But don't
-            ever buy it at () though, it is most (). My () likes it best with
-            (). Be sure to give the leftovers to your ().
+          <p id="answer">
+            
           </p>
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
