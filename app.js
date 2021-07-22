@@ -20,11 +20,12 @@ let adjOne = document.getElementById("adj-one").value;
 let adjTwo = document.getElementById("adj-two").value;
 let person = document.getElementById("person").value;
 let nounThree = document.getElementById("noun-three").value;
-let animal = document.getElementById("animal").valleconst madLib = document.getElementById("answer");
+let animal = document.getElementById("animal").value;
+let madLib = document.getElementById("answer");
 
 
 
-let paragraph = "At night I dream of " + foodItem + " that is as big as a " + nounOne + ". When I try to take a bite, it " + verb + "'s on my " + nounTwo + ". The best time I ever ate " + foodItem + " was in " + place + ". It tasted " + adjOne + ". But don't ever buy it in " + place + " though, it is most " + adjTwo + ". My " + person + " likes it best with " + nounThree + "s. Be sure to give the leftovers to your " + animal + ".";
+var paragraph = "At night I dream of " + foodItem + " that is as big as a " + nounOne + ". When I try to take a bite, it " + verb + "'s on my " + nounTwo + ". The best time I ever ate " + foodItem + " was in " + place + ". It tasted " + adjOne + ". But don't ever buy it in " + place + " though, it is most " + adjTwo + ". My " + person + " likes it best with " + nounThree + "s. Be sure to give the leftovers to your " + animal + ".";
 
 
 
@@ -48,7 +49,6 @@ person = "";
 nounThree = "";
 animal = "";
 }
-
 
 
 
